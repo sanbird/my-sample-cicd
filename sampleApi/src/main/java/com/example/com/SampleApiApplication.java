@@ -15,7 +15,9 @@ public class SampleApiApplication {
 	
 	@GetMapping("/hello")
 	public String hello() {
+		int i = 0;
 		return "hello";
+		
 	}
 
 }
